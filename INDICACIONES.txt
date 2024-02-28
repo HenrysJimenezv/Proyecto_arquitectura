@@ -1,0 +1,22 @@
+Henry Steven Jimenez Valencia
+Instrucciones API corte 1
+
+1. Instalar MySQL, correr XAMPP e iniciar Apache y MySQL.
+2. Pegar la siguiente URL en el navegador : "http://localhost/phpmyadmin/"
+3. En la pagina abrir el apartado SQL y copiar y pegar los datos que se encuentran en el archivo "base_de_datos.txt".
+4. Ctrl+c para correr el script.
+5. Abrir un editor de codigo de python (recomendado VSC).
+6. Cargar la carpeta con el proyecto.
+7. Abrir la terminar.
+8. Correr un entorno virtual : "virtualenv -p python3 env".
+9. Activar el entorno virtual : ".\env\Scripts\activate"
+10. Instalar los siguientes paquetes: "pip install flask flask_mysqldb"
+"pip install werkzeug passlib cryptography"
+11. Correr la app: "python .\src\app.py"
+12. Usar us simulador de llamadas de API para probar la app.
+(Si se va a usar Thunder client) 
+13. En las extensiones de VSC buscar Thunder client y inslatarlo.
+14. Abrir Thunder client y entrar en el apartado "Collections"
+15. Dar click en las tres lineas y seleccionar import.
+16. Cargar "thunder-collection_Flask.json".
+17. Hacer las prueba de cada actividad de la API.
